@@ -18,6 +18,16 @@
         {{ .Content }}
       </article>
 {{ if not .Params.nofooter}}      <footer class="post-meta">
+{{ if .Params.source }}
+				<br>
+				<div class="sources">
+				<h1>Sources :</h1>
+					<ul>
+						{{range .Params.source}}<li><a href="{{.}}">{{.}}</a></li>{{end}}
+					</ul>
+				</div>
+				<hr>
+{{ end }}
 {{ if not .Params.nopaging }}
         <div class="paging">
           <p>{{ i18n "paging-start" }}
@@ -30,10 +40,7 @@
 {{ with $related }}
           <p>{{ i18n "similaire"}}{{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}</p>
 {{ end }}
-         <br>
-
-         <script data-isso="https://isso.lord.re/" src="https://isso.lord.re/js/embed.min.js" data-isso-css="false" data-isso-avatar-bg="#222" defer></script>
-         <section id="isso-thread"></section>
+					<br>
         </div>
 {{ end }}
       </footer>{{end}}
