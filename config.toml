@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
+title = "GoogHell"
+theme = "neoHell"
+publishDir = "/tmp/www/googhell"
+paginate = 20
+
+[params]
+sectionsInHomepage = ["meta","bourdes"]
+
+[blackfriday]
+ fractions = false
+ smartypants = false

@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+<body>
+	<a href="#content" title="{{ i18n "skip_content" }}" class="sr-only"></a>
+{{ partial "sidebar.html" . }}
+
+  <main id="content">
+    <section  class="{{.Section}}">
+      <header class="post-header">
+        <h1 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+{{if not .Params.noheader}}        <p class="post-meta"><em>
+          {{ if not .Params.nodate }}<span class="post-date">{{ .Date.Format "02/01/2006" }}</span> - {{ end }}
+          {{ if not .Params.noread }}<span class="post-reading-time">{{ i18n "readingTime" .ReadingTime}}</span>{{ end }}</em>
+          {{ if .Params.categories }}<span class="post-categories">{{ $Site := .Site }}{{ range .Params.categories }}<a class="post-category post-category-{{ . | urlize }}" href="{{ $Site.BaseURL}}categories/{{ . | urlize }}">{{ . }}</a> {{ end }}</span>{{ end }}
+          {{ if .Params.lastEdit }}<span class="post-edit-date">Dernière mise à jour le : {{ dateFormat "02/01/2006" .Params.lastEdit }}</span>{{ end }}
+        </p>{{ end }}
+      </header>
+      <article>
+        {{ .Content }}
+      </article>
+{{ if not .Params.nofooter}}      <footer class="post-meta">
+{{ if not .Params.nopaging }}
+        <div class="paging">
+          <p>{{ i18n "paging-start" }}
+          {{if .NextPage }}{{ i18n "paging-fresher" }}<a class="paging-link" rel="next" href="{{ .NextPage.RelPermalink }}">{{.NextPage.Title}}</a>{{ end }}
+          {{if .PrevPage }}{{ i18n "paging-older" }}<a class="paging-link" rel="prev"  href="{{ .PrevPage.RelPermalink }}">{{.PrevPage.Title}}</a>{{ end }}
+          </p>
+          <p>Un article aléatoire : {{ range first 1 (shuffle (.Site.RegularPages ))  }} <a href="{{ .Permalink }}">{{ .Title }}</a> {{ end }}</p>
+
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+          <p>{{ i18n "similaire"}}{{ range . }}<a href="{{.Permalink}}">{{.Title}}</a> — {{end}}</p>
+{{ end }}
+         <br>
+
+         <script data-isso="https://isso.lord.re/" src="https://isso.lord.re/js/embed.min.js" data-isso-css="false" data-isso-avatar-bg="#222" defer></script>
+         <section id="isso-thread"></section>
+        </div>
+{{ end }}
+      </footer>{{end}}
+
+    </section>
+  </main>
+</body>
+</html>
