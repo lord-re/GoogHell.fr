@@ -8,9 +8,10 @@ nofooter: true
 GoogHell.fr
 
 Google est un géant américain un peu trop implanté dans la vie de tout un chacun.
-Bien que leur leitmotiv ait été *Don't Be Evil*, leur but premier est de dégager des bénéfices.De ce fait, beaucoup de leur décisions n'ont pour but que de générer du profit pour eux au détriment de leurs utilisateurs.
+Bien que leur leitmotiv ait été *Don't Be Evil*, leur but premier est de dégager des bénéfices.De ce fait, beaucoup de leurs décisions n'ont pour but que de générer du profit pour eux au détriment de leurs utilisateurs.
 
-Peu de monde est bien conscient de cet état de fait.
+On a une tendance à penser que les progrès apportés par Google sont pour le bien de ses utilisateurs en proposant un navigateur toujours plus rapide, plus sécurisé, des appareils toujours moins chers.
+Mais derrière tout ceci se cache souvent des atteintes à la vie privée, des tentatives de capture de marché, des régressions des libertés individuelles.
 Cet humble site se propose donc de répertorier au jour le jour les méfaits de Google afin de pouvoir les retrouver facilement.
 
 **Non Google n'est pas votre ami qui vous veut forcément du bien.**
