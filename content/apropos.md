@@ -16,9 +16,9 @@ Cet humble site se propose donc de répertorier au jour le jour les méfaits de 
 
 **Non Google n'est pas votre ami qui vous veut forcément du bien.**
 
-Ce site accepte les contributions extérieures : si vous êtes au fait d'une modification de politique, de changements néfastes dans un logiciel, de l'arrivée d'une nouvelle fonctionnalité contraire au bien-être de ses utilisateurs, d'un nouvel appareil menaçant toujours plus la vie privée… n'hésitez-pas à nous en faire part, voire à rédiger un article que nous publierons.
+*Ce site accepte les contributions extérieures* : si vous êtes au fait d'une modification de politique, de changements néfastes dans un logiciel, de l'arrivée d'une nouvelle fonctionnalité contraire au bien-être de ses utilisateurs, d'un nouvel appareil menaçant toujours plus la vie privée… n'hésitez-pas à nous en faire part, voire à rédiger un article que nous publierons.
 
-Le site n'en est qu'à ses balbutiements, soyez indulgent mais n'hésitez pas à proposer des améliorations que ce soit sur le fond, la forme, la technique ou autre.
+Le site n'en est qu'à ses balbutiements, soyez indulgent mais *n'hésitez pas à proposer des améliorations que ce soit sur le fond, la forme, la technique ou autre*.
 
-Ce site n'est pas monétisé, ne contient pas de tracker, ne pose pas de cookie, bref ce site vous respecte.
+Ce site n'est pas monétisé, ne contient pas de tracker, ne pose pas de cookie, bref **ce site vous respecte**.
 
