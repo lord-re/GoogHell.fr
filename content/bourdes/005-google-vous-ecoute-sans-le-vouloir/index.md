@@ -35,6 +35,6 @@ Il plaidoie en la faveur des micros pour des raisons de fonctionnalité :
 
 > Les systèmes de sécurité inclus souvent des microphones pour proposer des fonctionnalités liées au son.
 
-Après cette révélation technique hors catégorie, nous sommes tout de suite rassuré.
+Après cette révélation technique hors catégorie, nous sommes tout de suite rassurés.
 
 *Chez Google, vous n’êtes jamais sûr de qui est présent dans ce que vous achetez.*
