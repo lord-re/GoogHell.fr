@@ -13,7 +13,7 @@ impact:
 complexité:
   - basique
 ---
-Les <abbr title="Unified Resource Locator">URL</abbr>, plus courrament appelés *adresses, vous connaissez ?
+Les <abbr title="Unified Resource Locator">URL</abbr>, plus courrament appelés *adresses*, vous connaissez ?
 Ce sont ces chaînes de caractères comme celle-là : <https://googhell.fr/bourdes/002-google-supprime-des-applications-appstore-donation/>.
 C'est ce qui apparait tout en haut de votre navigateur.
 Vous pouvez la copier, la partager, que ce soit une page web, une image, une vidéo...
