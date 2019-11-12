@@ -1,6 +1,7 @@
 ---
 title: "Ouverture de GoogHell.fr !"
 date: 2019-11-05T11:41:30+01:00
+author: Lord
 ---
 Bonjour tout le monde !
 

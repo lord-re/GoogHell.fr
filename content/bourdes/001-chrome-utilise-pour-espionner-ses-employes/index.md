@@ -7,6 +7,7 @@ source:
  - https://www.channelnews.fr/des-salaries-de-google-accusent-leur-employeur-de-vouloir-les-espionner-au-travers-de-chrome-92447
 impact: interne
 complexité: basique
+author: Lord
 ---
 Non content d'être réputé pour baser une très grande partie de ses revenus sur la revente de la vie privée de ses utilisateurs, *Google met également à mal la vie privée de ses employés*.
 

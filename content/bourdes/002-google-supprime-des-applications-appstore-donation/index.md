@@ -9,6 +9,7 @@ impact:
   - utilisateurs
 complexité:
   - basique
+author: Lord
 ---
 Le Playstore est le magasin officiel des applications sur la plateforme Android.
 Ces derniers temps, *quelques applications se sont fait virer du Playstore sous prétexte qu'elles proposaient des liens afin de pousser les utilisateurs à faire des donations*.
