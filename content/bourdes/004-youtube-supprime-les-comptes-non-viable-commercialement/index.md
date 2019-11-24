@@ -1,5 +1,5 @@
 ---
-title: "Youtube supprime les comptes non-viables commercialement"
+title: "Youtube peut supprimer les comptes non-viables commercialement"
 date: 2019-11-11T16:19:28+01:00
 author: "Lord"
 source:
